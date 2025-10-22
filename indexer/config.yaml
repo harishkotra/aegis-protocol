@@ -1,0 +1,22 @@
+# yaml-language-server: $schema=./node_modules/envio/evm.schema.json
+name: aegis-indexer
+networks:
+  - id: 10143
+    start_block: 44595148
+    hypersync_config: 
+      url: https://monad-testnet.hypersync.xyz/
+
+    contracts:
+      - name: AegisPactFactory
+        abi_file_path: abis/AegisPactFactory.json
+        start_block: 44595148
+        handler: src/EventHandlers.ts
+        address: "0x9Ee74B5CdA611323cfF472Ee66de9884E2a54cc6"
+        events:
+          - event: PactCreated(address owner, address beneficiary, address pactAddress)
+      
+      - name: AegisPact
+        abi_file_path: abis/AegisPact.json
+        handler: src/EventHandlers.ts
+        events:
+          - event: CheckedIn(address indexed user, uint256 timestamp)

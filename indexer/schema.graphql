@@ -1,0 +1,10 @@
+type Pact @entity {
+  id: ID!
+  owner: String!
+  beneficiary: String!
+  warden: String!
+  checkInInterval: BigInt!
+  protectedToken: String!
+  lastCheckIn: BigInt!
+  createdAt: BigInt!
+}

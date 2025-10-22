@@ -1,0 +1,27 @@
+# Node dependencies
+node_modules
+/frontend/dist
+/indexer/generated
+
+# Environment variables
+# This will ignore .env files in ANY directory
+**/.env
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# OS-generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# IDE configuration
+.idea
+.vscode

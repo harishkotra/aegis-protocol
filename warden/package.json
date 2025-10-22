@@ -1,0 +1,20 @@
+{
+  "name": "warden",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node warden.js",
+    "dev": "node warden.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "Harish Kotra",
+  "license": "MIT",
+  "type": "module",
+  "dependencies": {
+    "dotenv": "^17.2.3",
+    "graphql-request": "^7.3.1",
+    "viem": "^2.38.3"
+  }
+}
