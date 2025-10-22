@@ -17,6 +17,11 @@ This Smart Account then owns one or more **"Pacts"**—smart contracts that hold
 
 By using a Smart Account, we unlock a future of advanced features like social recovery, session keys, and gasless transactions, making Aegis a true legacy management platform.
 
+<img width="1494" height="1120" alt="image" src="https://github.com/user-attachments/assets/ff439a85-1cee-4ce7-b955-83fb68aa3418" />
+<img width="996" height="1141" alt="image" src="https://github.com/user-attachments/assets/fb8bf670-dcc3-4909-894b-d718b9d684c6" />
+
+[Pitch Video](https://youtu.be/ZYrTjuWMnsw)
+
 ---
 
 ## How It Works: A Smart Account-Centric Architecture
